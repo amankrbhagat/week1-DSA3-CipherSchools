@@ -23,6 +23,14 @@ k--;
 }
 
 int main() {
-    cout << "Hello World";
+    vector<int> a = {11, 14, 19, 22, 26};
+    vector<int> b = {1, 4, 6, 9};
+
+    mergedSortedArrays(a, a.size(), b, b.size());
+    for (auto i : a)
+    {
+        cout << i << " " << endl;
+    }
+
 
 }
